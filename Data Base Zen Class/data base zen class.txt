@@ -1,0 +1,222 @@
+
+    Zen Class Data Base Model Design :
+
+    Collections List:
+
+        -  users
+        -  codekata
+        -  attendance
+        -  topics
+        -  tasks
+        -  company_drives
+        -  mentors
+
+ 
+    users :
+
+[
+  {"user_id": 1, "name": "John Doe", "email": "john.doe@email.com", "enrollment_date": "2022-01-01", "mentor_id": 101},
+  {"user_id": 2, "name": "Jane Smith", "email": "jane.smith@email.com", "enrollment_date": "2022-02-15", "mentor_id": 102},
+  {"user_id": 3, "name": "Michael Johnson", "email": "michael.johnson@email.com", "enrollment_date": "2022-03-10", "mentor_id": 103},
+  {"user_id": 4, "name": "Emily Davis", "email": "emily.davis@email.com", "enrollment_date": "2022-04-20", "mentor_id": 104},
+  {"user_id": 5, "name": "Daniel Wilson", "email": "daniel.wilson@email.com", "enrollment_date": "2022-05-05", "mentor_id": 105},
+  {"user_id": 6, "name": "Olivia Miller", "email": "olivia.miller@email.com", "enrollment_date": "2022-06-12", "mentor_id": 106},
+  {"user_id": 7, "name": "Ethan Brown", "email": "ethan.brown@email.com", "enrollment_date": "2022-07-08", "mentor_id": 107},
+  {"user_id": 8, "name": "Ava Jones", "email": "ava.jones@email.com", "enrollment_date": "2022-08-15", "mentor_id": 108},
+  {"user_id": 9, "name": "Matthew Taylor", "email": "matthew.taylor@email.com", "enrollment_date": "2022-09-22", "mentor_id": 109},
+  {"user_id": 10, "name": "Sophia White", "email": "sophia.white@email.com", "enrollment_date": "2022-10-30", "mentor_id": 110},
+  {"user_id": 11, "name": "James Harris", "email": "james.harris@email.com", "enrollment_date": "2022-11-11", "mentor_id": 111},
+  {"user_id": 12, "name": "Chloe Anderson", "email": "chloe.anderson@email.com", "enrollment_date": "2022-12-18", "mentor_id": 112},
+  {"user_id": 13, "name": "Benjamin Martinez", "email": "benjamin.martinez@email.com", "enrollment_date": "2023-01-25", "mentor_id": 113},
+  {"user_id": 14, "name": "Emma Robinson", "email": "emma.robinson@email.com", "enrollment_date": "2023-02-09", "mentor_id": 114},
+  {"user_id": 15, "name": "William Clark", "email": "william.clark@email.com", "enrollment_date": "2023-03-14", "mentor_id": 115},
+  {"user_id": 16, "name": "Mia Lewis", "email": "mia.lewis@email.com", "enrollment_date": "2023-04-21", "mentor_id": 116},
+  {"user_id": 17, "name": "Alexander Hall", "email": "alexander.hall@email.com", "enrollment_date": "2023-05-27", "mentor_id": 117},
+  {"user_id": 18, "name": "Avery King", "email": "avery.king@email.com", "enrollment_date": "2023-06-30", "mentor_id": 118},
+  {"user_id": 19, "name": "Sofia Turner", "email": "sofia.turner@email.com", "enrollment_date": "2023-07-08", "mentor_id": 119},
+  {"user_id": 20, "name": "Jack Parker", "email": "jack.parker@email.com", "enrollment_date": "2023-08-16", "mentor_id": 120},
+  {"user_id": 21, "name": "Lily Scott", "email": "lily.scott@email.com", "enrollment_date": "2023-09-23", "mentor_id": 121},
+  {"user_id": 22, "name": "Christopher Green", "email": "christopher.green@email.com", "enrollment_date": "2023-10-30", "mentor_id": 122},
+  {"user_id": 23, "name": "Grace Adams", "email": "grace.adams@email.com", "enrollment_date": "2023-11-11", "mentor_id": 123},
+  {"user_id": 24, "name": "Logan Baker", "email": "logan.baker@email.com", "enrollment_date": "2023-12-18", "mentor_id": 124},
+  {"user_id": 25, "name": "Ryan Murphy", "email": "ryan.murphy@email.com", "enrollment_date": "2024-01-25", "mentor_id": 125}
+]
+
+    codekata :
+
+[
+  {"user_id": 1, "date_completed": "2022-03-05", "total_problems_solved": 10},
+  {"user_id": 2, "date_completed": "2022-04-10", "total_problems_solved": 15},
+  {"user_id": 3, "date_completed": "2022-05-15", "total_problems_solved": 8},
+  {"user_id": 4, "date_completed": "2022-06-20", "total_problems_solved": 20},
+  {"user_id": 5, "date_completed": "2022-07-25", "total_problems_solved": 12},
+  {"user_id": 6, "date_completed": "2022-08-30", "total_problems_solved": 18},
+  {"user_id": 7, "date_completed": "2022-09-05", "total_problems_solved": 14},
+  {"user_id": 8, "date_completed": "2022-10-10", "total_problems_solved": 22},
+  {"user_id": 9, "date_completed": "2022-11-15", "total_problems_solved": 25},
+  {"user_id": 10, "date_completed": "2022-12-20", "total_problems_solved": 16},
+  {"user_id": 11, "date_completed": "2023-01-25", "total_problems_solved": 19},
+  {"user_id": 12, "date_completed": "2023-02-28", "total_problems_solved": 11},
+  {"user_id": 13, "date_completed": "2023-03-05", "total_problems_solved": 23},
+  {"user_id": 14, "date_completed": "2023-04-10", "total_problems_solved": 17},
+  {"user_id": 15, "date_completed": "2023-05-15", "total_problems_solved": 13},
+  {"user_id": 16, "date_completed": "2023-06-20", "total_problems_solved": 21},
+  {"user_id": 17, "date_completed": "2023-07-25", "total_problems_solved": 9},
+  {"user_id": 18, "date_completed": "2023-08-30", "total_problems_solved": 24},
+  {"user_id": 19, "date_completed": "2023-09-05", "total_problems_solved": 15},
+  {"user_id": 20, "date_completed": "2023-10-10", "total_problems_solved": 14},
+  {"user_id": 21, "date_completed": "2023-11-15", "total_problems_solved": 19},
+  {"user_id": 22, "date_completed": "2023-12-20", "total_problems_solved": 20},
+  {"user_id": 23, "date_completed": "2024-01-25", "total_problems_solved": 18},
+  {"user_id": 24, "date_completed": "2024-02-28", "total_problems_solved": 16},
+  {"user_id": 25, "date_completed": "2024-03-05", "total_problems_solved": 22}
+]
+
+    attendance :
+
+[
+  {"user_id": 1, "date": "2022-01-10", "status": "Present"},
+  {"user_id": 2, "date": "2022-02-15", "status": "Present"},
+  {"user_id": 3, "date": "2022-03-20", "status": "Absent"},
+  {"user_id": 4, "date": "2022-04-25", "status": "Present"},
+  {"user_id": 5, "date": "2022-05-30", "status": "Absent"},
+  {"user_id": 6, "date": "2022-06-05", "status": "Present"},
+  {"user_id": 7, "date": "2022-07-10", "status": "Absent"},
+  {"user_id": 8, "date": "2022-08-15", "status": "Present"},
+  {"user_id": 9, "date": "2022-09-20", "status": "Present"},
+  {"user_id": 10, "date": "2022-10-25", "status": "Absent"},
+  {"user_id": 11, "date": "2022-11-30", "status": "Present"},
+  {"user_id": 12, "date": "2022-12-05", "status": "Present"},
+  {"user_id": 13, "date": "2023-01-10", "status": "Absent"},
+  {"user_id": 15, "date": "2023-03-20", "status": "Present"},
+  {"user_id": 16, "date": "2023-04-25", "status": "Absent"},
+  {"user_id": 17, "date": "2023-05-30", "status": "Present"},
+  {"user_id": 18, "date": "2023-06-05", "status": "Absent"},
+  {"user_id": 19, "date": "2023-07-10", "status": "Present"},
+  {"user_id": 20, "date": "2023-08-15", "status": "Present"},
+  {"user_id": 21, "date": "2023-09-20", "status": "Absent"},
+  {"user_id": 22, "date": "2023-10-25", "status": "Present"},
+  {"user_id": 23, "date": "2023-11-30", "status": "Present"},
+  {"user_id": 24, "date": "2023-12-05", "status": "Absent"},
+  {"user_id": 25, "date": "2024-01-10", "status": "present"}
+]
+
+    topics :
+
+[
+  {"topic_id": 1, "topic_name": "Project Planning and Proposal", "description": "Planning and proposing a project", "start_date": "2022-01-15", "end_date": "2022-02-15"},
+  {"topic_id": 2, "topic_name": "Database Design Fundamentals", "description": "Basic concepts of database design", "start_date": "2022-02-20", "end_date": "2022-03-20"},
+  {"topic_id": 3, "topic_name": "Web Development Concepts", "description": "Understanding HTML, CSS, JavaScript", "start_date": "2022-03-25", "end_date": "2022-04-25"},
+  {"topic_id": 4, "topic_name": "Algorithmic Thinking", "description": "Exploring sorting, searching, and dynamic programming", "start_date": "2022-04-30", "end_date": "2022-05-30"},
+  {"topic_id": 5, "topic_name": "Mobile App Prototyping", "description": "Creating prototypes for mobile applications", "start_date": "2022-05-10", "end_date": "2022-06-10"},
+  {"topic_id": 6, "topic_name": "Machine Learning Concepts", "description": "Fundamentals of supervised and unsupervised learning", "start_date": "2022-06-20", "end_date": "2022-07-20"},
+  {"topic_id": 7, "topic_name": "Cloud Infrastructure Setup", "description": "Setting up cloud infrastructure with AWS, Azure, Google Cloud", "start_date": "2022-07-25", "end_date": "2022-08-25"},
+  {"topic_id": 8, "topic_name": "Cybersecurity Assessment", "description": "Assessing and securing systems", "start_date": "2022-08-30", "end_date": "2022-09-30"},
+  {"topic_id": 9, "topic_name": "Software Testing and QA", "description": "Planning and implementing software testing", "start_date": "2022-09-25", "end_date": "2022-10-25"},
+  {"topic_id": 10, "topic_name": "UI/UX Design Principles", "description": "Redesigning user interfaces and experiences", "start_date": "2022-10-10", "end_date": "2022-11-10"},
+  {"topic_id": 11, "topic_name": "Data Analysis Techniques", "description": "Analyzing and interpreting data", "start_date": "2022-11-20", "end_date": "2022-12-20"},
+  {"topic_id": 12, "topic_name": "Continuous Integration Concepts", "description": "Setting up continuous integration pipelines", "start_date": "2022-12-05", "end_date": "2023-01-05"},
+  {"topic_id": 13, "topic_name": "Blockchain Development", "description": "Creating smart contracts and working with cryptocurrencies", "start_date": "2023-01-15", "end_date": "2023-02-15"},
+  {"topic_id": 14, "topic_name": "Natural Language Processing", "description": "Developing applications for text mining and sentiment analysis", "start_date": "2023-02-25", "end_date": "2023-03-25"},
+  {"topic_id": 15, "topic_name": "IoT Device Prototyping", "description": "Creating prototypes for Internet of Things devices", "start_date": "2023-03-15", "end_date": "2023-04-15"},
+  {"topic_id": 16, "topic_name": "Penetration Testing and Security", "description": "Conducting penetration tests and assessing vulnerabilities", "start_date": "2023-04-30", "end_date": "2023-05-30"},
+  {"topic_id": 17, "topic_name": "UX Design Portfolio Development", "description": "Building portfolios showcasing UX design work", "start_date": "2023-05-10", "end_date": "2023-06-10"},
+  {"topic_id": 18, "topic_name": "Big Data Analytics", "description": "Working with Hadoop and Spark for big data projects", "start_date": "2023-06-20", "end_date": "2023-07-20"},
+  {"topic_id": 19, "topic_name": "Quantum Computing Simulation", "description": "Simulating quantum computing concepts", "start_date": "2023-07-05", "end_date": "2023-08-05"},
+  {"topic_id": 20, "topic_name": "AR Application Development", "description": "Developing applications for Augmented Reality", "start_date": "2023-08-15", "end_date": "2023-09-15"},
+  {"topic_id": 21, "topic_name": "Robotics Project Development", "description": "Programming robots and integrating sensors", "start_date": "2023-09-25", "end_date": "2023-10-25"},
+  {"topic_id": 22, "topic_name": "AI Ethics Research", "description": "Researching ethics in Artificial Intelligence", "start_date": "2023-10-10", "end_date": "2023-11-10"},
+  {"topic_id": 23, "topic_name": "3D Printing Prototyping", "description": "Creating prototypes using 3D printing technology", "start_date": "2023-11-20", "end_date": "2023-12-20"},
+  {"topic_id": 24, "topic_name": "Smart City Planning", "description": "Planning urban development with IoT integration", "start_date": "2023-12-05", "end_date": "2024-01-05"},
+  {"topic_id": 25, "topic_name": "Final Project Presentation Skills", "description": "Developing skills for presenting final projects", "start_date": "2024-01-15", "end_date": "2024-02-15"}
+]
+
+    tasks :
+
+[
+  { "user_id": 1, "task_name": "Project Proposal", "submission_date": "2022-01-20", "status": "Submitted"},
+  { "user_id": 2, "task_name": "Database Design", "submission_date": "2022-02-25", "status": "Not Submitted"},
+  { "user_id": 3, "task_name": "Web Development Project", "submission_date": "2022-03-15", "status": "Submitted"},
+  { "user_id": 4, "task_name": "Algorithm Implementation", "submission_date": "2022-04-30", "status": "Submitted"},
+  { "user_id": 5, "task_name": "Mobile App Prototype", "submission_date": "2022-05-10", "status": "Not Submitted"},
+  { "user_id": 6, "task_name": "Machine Learning Model", "submission_date": "2022-06-20", "status": "Submitted"},
+  { "user_id": 7, "task_name": "Cloud Infrastructure Setup", "submission_date": "2022-07-05", "status": "Not Submitted"},
+  { "user_id": 8, "task_name": "Cybersecurity Assessment", "submission_date": "2022-08-15", "status": "Submitted"},
+  { "user_id": 9, "task_name": "Software Testing Plan", "submission_date": "2022-09-25", "status": "Submitted"},
+  { "user_id": 10, "task_name": "UI/UX Redesign", "submission_date": "2022-10-10", "status": "Not Submitted"},
+  { "user_id": 11, "task_name": "Data Analysis Report", "submission_date": "2022-11-20", "status": "Submitted"},
+  { "user_id": 12, "task_name": "Continuous Integration Setup", "submission_date": "2022-12-05", "status": "Submitted"},
+  { "user_id": 13, "task_name": "Blockchain Smart Contract", "submission_date": "2023-01-15", "status": "Not Submitted"},
+  { "user_id": 14, "task_name": "Natural Language Processing Application", "submission_date": "2023-02-25", "status": "Submitted"},
+  { "user_id": 15, "task_name": "IoT Device Prototype", "submission_date": "2023-03-15", "status": "Submitted"},
+  { "user_id": 16, "task_name": "Penetration Testing Report", "submission_date": "2023-04-30", "status": "Not Submitted"},
+  { "user_id": 17, "task_name": "UX Design Portfolio", "submission_date": "2023-05-10", "status": "Submitted"},
+  { "user_id": 18, "task_name": "Big Data Analytics Project", "submission_date": "2023-06-20", "status": "Submitted"},
+  { "user_id": 19, "task_name": "Quantum Computing Simulation", "submission_date": "2023-07-05", "status": "Not Submitted"},
+  { "user_id": 20, "task_name": "AR Application Development", "submission_date": "2023-08-15", "status": "Submitted"},
+  { "user_id": 21, "task_name": "Robotics Project", "submission_date": "2023-09-25", "status": "Submitted"},
+  { "user_id": 22, "task_name": "AI Ethics Research Paper", "submission_date": "2023-10-10", "status": "Not Submitted"},
+  { "user_id": 23, "task_name": "3D Printing Prototype", "submission_date": "2023-11-20", "status": "Submitted"},
+  { "user_id": 24, "task_name": "Smart City Planning Document", "submission_date": "2023-12-05", "status": "Submitted"},
+  { "user_id": 25, "task_name": "Final Project Presentation", "submission_date": "2024-01-15", "status": "Not Submitted"}
+]
+
+    company_drives :
+
+[
+  {"user_id": 1, "company_name": "TechCorp", "drive_date": "2022-01-20", "status": "Appeared"},
+  {"user_id": 2, "company_name": "SoftSys", "drive_date": "2022-02-15", "status": "Not Appeared"},
+  {"user_id": 3, "company_name": "InnovateTech", "drive_date": "2022-03-25", "status": "Appeared"},
+  {"user_id": 4, "company_name": "DataSolutions", "drive_date": "2022-04-30", "status": "Not Appeared"},
+  {"user_id": 5, "company_name": "CodeInnovators", "drive_date": "2022-05-10", "status": "Appeared"},
+  {"user_id": 6, "company_name": "TechGurus", "drive_date": "2022-06-20", "status": "Not Appeared"},
+  {"user_id": 7, "company_name": "InnoSoft", "drive_date": "2022-07-05", "status": "Appeared"},
+  {"user_id": 8, "company_name": "DataMasters", "drive_date": "2022-08-15", "status": "Not Appeared"},
+  {"user_id": 9, "company_name": "CodeCrafters", "drive_date": "2022-09-25", "status": "Appeared"},
+  {"user_id": 10, "company_name": "TechInnovate", "drive_date": "2020-10-17", "status": "Not Appeared"},
+  {"user_id": 11, "company_name": "InnoSolutions", "drive_date": "2020-10-20", "status": "Appeared"},
+  {"user_id": 12, "company_name": "SoftInnovators", "drive_date": "2022-12-05", "status": "Not Appeared"},
+  {"user_id": 13, "company_name": "DataTechies", "drive_date": "2023-01-15", "status": "Appeared"},
+  {"user_id": 14, "company_name": "CodeMasters", "drive_date": "2023-02-25", "status": "Not Appeared"},
+  {"user_id": 15, "company_name": "InnoCode", "drive_date": "2023-03-15", "status": "Appeared"},
+  {"user_id": 16, "company_name": "TechSolutions", "drive_date": "2023-04-30", "status": "Not Appeared"},
+  {"user_id": 17, "company_name": "DataCrafters", "drive_date": "2023-05-10", "status": "Appeared"},
+  {"user_id": 18, "company_name": "CodeTech", "drive_date": "2023-06-20", "status": "Not Appeared"},
+  {"user_id": 19, "company_name": "InnoMasters", "drive_date": "2023-07-05", "status": "Appeared"},
+  {"user_id": 20, "company_name": "SoftSolutions", "drive_date": "2023-08-15", "status": "Not Appeared"},
+  {"user_id": 21, "company_name": "CodeInno", "drive_date": "2023-09-25", "status": "Appeared"},
+  {"user_id": 22, "company_name": "TechCrafters", "drive_date": "2023-10-10", "status": "Not Appeared"},
+  {"user_id": 23, "company_name": "InnoTech", "drive_date": "2023-11-20", "status": "Appeared"},
+  {"user_id": 24, "company_name": "DataInnovate", "drive_date": "2023-12-05", "status": "Not Appeared"},
+  {"user_id": 25, "company_name": "CodeGurus", "drive_date": "2024-01-15", "status": "Appeared"}
+]
+
+    mentors :
+
+[
+  {"mentor_id": 1, "mentor_name": "John Smith", "expertise": "Software Development", "mentee_count": 20, "email": "john.smith@example.com"},
+  {"mentor_id": 2, "mentor_name": "Emma Johnson", "expertise": "Data Science", "mentee_count": 18, "email": "emma.johnson@example.com"},
+  {"mentor_id": 3, "mentor_name": "Michael Davis", "expertise": "Web Development", "mentee_count": 22, "email": "michael.davis@example.com"},
+  {"mentor_id": 4, "mentor_name": "Sophia Brown", "expertise": "Machine Learning", "mentee_count": 15, "email": "sophia.brown@example.com"},
+  {"mentor_id": 5, "mentor_name": "Daniel Wilson", "expertise": "Mobile App Development", "mentee_count": 25, "email": "daniel.wilson@example.com"},
+  {"mentor_id": 6, "mentor_name": "Olivia Martinez", "expertise": "Cloud Computing", "mentee_count": 21, "email": "olivia.martinez@example.com"},
+  {"mentor_id": 7, "mentor_name": "Liam Taylor", "expertise": "Cybersecurity", "mentee_count": 19, "email": "liam.taylor@example.com"},
+  {"mentor_id": 8, "mentor_name": "Ava Anderson", "expertise": "UX/UI Design", "mentee_count": 16, "email": "ava.anderson@example.com"},
+  {"mentor_id": 9, "mentor_name": "Noah Wilson", "expertise": "Database Management", "mentee_count": 23, "email": "noah.wilson@example.com"},
+  {"mentor_id": 10, "mentor_name": "Isabella Garcia", "expertise": "DevOps", "mentee_count": 20, "email": "isabella.garcia@example.com"},
+  {"mentor_id": 11, "mentor_name": "Mason Smith", "expertise": "Blockchain", "mentee_count": 18, "email": "mason.smith@example.com"},
+  {"mentor_id": 12, "mentor_name": "Amelia Davis", "expertise": "Artificial Intelligence", "mentee_count": 22, "email": "amelia.davis@example.com"},
+  {"mentor_id": 13, "mentor_name": "Logan Johnson", "expertise": "Data Analytics", "mentee_count": 15, "email": "logan.johnson@example.com"},
+  {"mentor_id": 14, "mentor_name": "Ella Brown", "expertise": "Quantum Computing", "mentee_count": 25, "email": "ella.brown@example.com"},
+  {"mentor_id": 15, "mentor_name": "Carter Wilson", "expertise": "Mobile App Development", "mentee_count": 21, "email": "carter.wilson@example.com"},
+  {"mentor_id": 16, "mentor_name": "Aria Martinez", "expertise": "Web Development", "mentee_count": 19, "email": "aria.martinez@example.com"},
+  {"mentor_id": 17, "mentor_name": "Jackson Taylor", "expertise": "Machine Learning", "mentee_count": 16, "email": "jackson.taylor@example.com"},
+  {"mentor_id": 18, "mentor_name": "Scarlett Anderson", "expertise": "Cybersecurity", "mentee_count": 23, "email": "scarlett.anderson@example.com"},
+  {"mentor_id": 19, "mentor_name": "Leo Garcia", "expertise": "UX/UI Design", "mentee_count": 20, "email": "leo.garcia@example.com"},
+  {"mentor_id": 20, "mentor_name": "Grace Wilson", "expertise": "Database Management", "mentee_count": 18, "email": "grace.wilson@example.com"},
+  {"mentor_id": 21, "mentor_name": "Lucas Smith", "expertise": "DevOps", "mentee_count": 22, "email": "lucas.smith@example.com"},
+  {"mentor_id": 22, "mentor_name": "Lily Davis", "expertise": "Blockchain", "mentee_count": 15, "email": "lily.davis@example.com"},
+  {"mentor_id": 23, "mentor_name": "Nathan Johnson", "expertise": "Artificial Intelligence", "mentee_count": 25, "email": "nathan.johnson@example.com"},
+  {"mentor_id": 24, "mentor_name": "Addison Brown", "expertise": "Data Analytics", "mentee_count": 21, "email": "addison.brown@example.com"},
+  {"mentor_id": 25, "mentor_name": "Elijah Wilson", "expertise": "Quantum Computing", "mentee_count": 19, "email": "elijah.wilson@example.com"}
+]

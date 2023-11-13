@@ -1,0 +1,164 @@
+1.question ans:
+
+{
+  topic_name: 'Robotics Project Development',
+  description: 'Programming robots and integrating sensors',
+  start_date: '2023-09-25',
+  end_date: '2023-10-25',
+  tasks_info: [
+    {
+      task_name: 'Robotics Project',
+      submission_date: '2023-09-25'
+    }
+  ]
+}
+{
+  topic_name: 'AI Ethics Research',
+  description: 'Researching ethics in Artificial Intelligence',
+  start_date: '2023-10-10',
+  end_date: '2023-11-10',
+  tasks_info: [
+    {
+      task_name: 'AI Ethics Research Paper',
+      submission_date: '2023-10-10'
+    }
+  ]
+}
+
+2.question ans:
+
+  {
+  company_name: 'TechInnovate',
+  drive_date: '2020-10-17'
+}
+{
+  company_name: 'InnoSolutions',
+  drive_date: '2020-10-20'
+}
+
+ 3.question ans:
+
+ {
+  _id: ObjectId("654e1ae1930cafeb93069df3"),
+  user_id: 1,
+  company_name: 'TechCorp',
+  drive_date: '2022-01-20',
+  status: 'Appeared'
+}
+{
+  _id: ObjectId("654e1ae1930cafeb93069df5"),
+  user_id: 3,
+  company_name: 'InnovateTech',
+  drive_date: '2022-03-25',
+  status: 'Appeared'
+}
+{
+  _id: ObjectId("654e1ae1930cafeb93069df7"),
+  user_id: 5,
+  company_name: 'CodeInnovators',
+  drive_date: '2022-05-10',
+  status: 'Appeared'
+}
+{
+  _id: ObjectId("654e1ae1930cafeb93069df9"),
+  user_id: 7,
+  company_name: 'InnoSoft',
+  drive_date: '2022-07-05',
+  status: 'Appeared'
+}
+{
+  _id: ObjectId("654e1ae1930cafeb93069dfb"),
+  user_id: 9,
+  company_name: 'CodeCrafters',
+  drive_date: '2022-09-25',
+  status: 'Appeared'
+}
+..........etc
+
+4.question ans:
+ 
+  User ID: 1, Total Problems Solved: 10
+User ID: 2, Total Problems Solved: 15
+User ID: 3, Total Problems Solved: 8
+User ID: 4, Total Problems Solved: 20
+User ID: 5, Total Problems Solved: 12
+User ID: 6, Total Problems Solved: 18
+User ID: 7, Total Problems Solved: 14
+User ID: 8, Total Problems Solved: 22
+User ID: 9, Total Problems Solved: 25
+User ID: 10, Total Problems Solved: 16
+User ID: 11, Total Problems Solved: 19
+User ID: 12, Total Problems Solved: 11
+User ID: 13, Total Problems Solved: 23
+User ID: 14, Total Problems Solved: 17
+User ID: 15, Total Problems Solved: 13
+User ID: 16, Total Problems Solved: 21
+User ID: 17, Total Problems Solved: 9
+User ID: 18, Total Problems Solved: 24
+User ID: 19, Total Problems Solved: 15
+User ID: 20, Total Problems Solved: 14
+User ID: 21, Total Problems Solved: 19
+User ID: 22, Total Problems Solved: 20
+User ID: 23, Total Problems Solved: 18
+User ID: 24, Total Problems Solved: 16
+User ID: 25, Total Problems Solved: 22
+
+5.question ans:
+
+Mentor Name: John Smith, Mentees Count: 20
+Mentor Name: Emma Johnson, Mentees Count: 18
+Mentor Name: Michael Davis, Mentees Count: 22
+Mentor Name: Sophia Brown, Mentees Count: 15
+Mentor Name: Daniel Wilson, Mentees Count: 25
+Mentor Name: Olivia Martinez, Mentees Count: 21
+Mentor Name: Liam Taylor, Mentees Count: 19
+Mentor Name: Ava Anderson, Mentees Count: 16
+Mentor Name: Noah Wilson, Mentees Count: 23
+Mentor Name: Isabella Garcia, Mentees Count: 20
+Mentor Name: Mason Smith, Mentees Count: 18
+Mentor Name: Amelia Davis, Mentees Count: 22
+Mentor Name: Logan Johnson, Mentees Count: 15
+Mentor Name: Ella Brown, Mentees Count: 25
+Mentor Name: Carter Wilson, Mentees Count: 21
+Mentor Name: Aria Martinez, Mentees Count: 19
+Mentor Name: Jackson Taylor, Mentees Count: 16
+Mentor Name: Scarlett Anderson, Mentees Count: 23
+Mentor Name: Leo Garcia, Mentees Count: 20
+Mentor Name: Grace Wilson, Mentees Count: 18
+Mentor Name: Lucas Smith, Mentees Count: 22
+Mentor Name: Lily Davis, Mentees Count: 15
+Mentor Name: Nathan Johnson, Mentees Count: 25
+Mentor Name: Addison Brown, Mentees Count: 21
+Mentor Name: Elijah Wilson, Mentees Count: 19
+
+6.question ans:
+
+ {
+  user_id: 1,
+  task_name: 'Project Proposal',
+  submission_date: '2022-01-20',
+  attendance_status: [
+    'Present'
+  ],
+  attendance_reason: []
+}
+{
+  user_id: 2,
+  task_name: 'Database Design',
+  submission_date: '2022-02-25',
+  attendance_status: [
+    'Present'
+  ],
+  attendance_reason: []
+}
+{
+  user_id: 3,
+  task_name: 'Web Development Project',
+  submission_date: '2022-03-15',
+  attendance_status: [
+    'Absent'
+  ],
+  attendance_reason: []
+}
+
+....etc
